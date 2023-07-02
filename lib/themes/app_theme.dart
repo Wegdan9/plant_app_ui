@@ -9,6 +9,14 @@ class AppTheme{
   static const String bgImage = 'assets/images/bg.png';
   static const String profileImage = 'assets/images/profile.jpg';
 
+  /// App Icons.
+  static const String searchIcon = "assets/icons/search.svg";
+  static const String menuIcon = "assets/icons/menu.svg";
+  static const String homeIcon = "assets/icons/home.svg";
+  static const String favoriteIcon = "assets/icons/favorite.svg";
+  static const String cartIcon = "assets/icons/cart.svg";
+  static const String profileIcon = "assets/icons/profile.svg";
+
   ///Defining Colors
   static const primarySwatch = Color(0xFF214712);
   static const kIconColor = Color(0xFFD9D9D9);

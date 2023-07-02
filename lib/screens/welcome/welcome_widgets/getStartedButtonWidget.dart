@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plant_app_ui/animation/fade_animation.dart';
+import 'package:plant_app_ui/screens/home/home_screen.dart';
 
 import '../../../themes/app_theme.dart';
 
@@ -25,6 +26,8 @@ class GetStartedButton extends StatelessWidget {
             color: Colors.white
           ),) ,
         ),
-        onPressed: (){},);
+        onPressed: (){
+          Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
+        },);
   }
 }
